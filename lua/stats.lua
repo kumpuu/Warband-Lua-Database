@@ -73,6 +73,7 @@ function statsUserIncValue(uid, column_name, amount)
 end
 
 -- /stats
+-- Display stats of a user (s2) to player_no
 function statsChatCmd(player_no, num_args)
   local stats_player = player_no
   
@@ -114,6 +115,7 @@ function statsChatCmd(player_no, num_args)
 end
 
 -- /duelstats
+-- Display arena stats of a user (s2) to player_no
 function statsChatCmdDuel(player_no, num_args)
   local stats_player = player_no
 
@@ -146,6 +148,7 @@ function statsChatCmdDuel(player_no, num_args)
 end
 
 -- /top
+-- top10 or more
 function statsChatCmdTop(player_no, num_args)
   local function help()
     send_info_msg(player_no, "Usage:")
