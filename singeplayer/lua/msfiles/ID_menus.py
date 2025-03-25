@@ -1,0 +1,15 @@
+menu_start_game_0 = 0
+menu_start_phase_2 = 1
+menu_start_game_3 = 2
+menu_tutorial = 3
+menu_reports = 4
+menu_camp = 5
+menu_custom_battle_scene = 6
+menu_custom_battle_end = 7
+menu_town_trade = 8
+menu_debug = 9
+menu_run_mission_dummy = 10
+menu_run_companion_dummy = 11
+menu_visit_camp_dummy = 12
+menu_go_briefing_dummy = 13
+menu_quit_dummy = 14
